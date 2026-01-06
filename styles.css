@@ -1,0 +1,158 @@
+:root{
+  --bg:#070A12;
+  --card:rgba(255,255,255,.06);
+  --text:#EAF0FF;
+  --muted:rgba(234,240,255,.72);
+  --line:rgba(255,255,255,.12);
+  --accent:#7FB3FF;
+  --good:#4BE3A2;
+  --bad:#FF6B6B;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  color:var(--text);
+  background:var(--bg);
+  overflow-x:hidden;
+}
+
+.bg{
+  position:fixed; inset:-40vh -30vw;
+  background:
+    radial-gradient(60vh 60vh at 20% 15%, rgba(127,179,255,.20), transparent 60%),
+    radial-gradient(70vh 70vh at 75% 30%, rgba(75,227,162,.14), transparent 65%),
+    radial-gradient(80vh 80vh at 55% 85%, rgba(255,107,107,.10), transparent 60%),
+    linear-gradient(180deg, rgba(255,255,255,.03), transparent 30%);
+  pointer-events:none;
+}
+
+.wrap{max-width:980px; margin:0 auto; padding:42px 18px 56px}
+.top{margin-bottom:22px}
+.badge{
+  display:inline-block;
+  padding:6px 10px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background:rgba(255,255,255,.04);
+  font-size:12px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:var(--muted);
+}
+h1{margin:10px 0 8px; font-size:40px; line-height:1.06}
+.sub{margin:0; color:var(--muted); max-width:75ch}
+
+.card{
+  border:1px solid var(--line);
+  background:linear-gradient(180deg, var(--card), rgba(255,255,255,.03));
+  border-radius:18px;
+  padding:18px 18px 16px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.25), 0 20px 60px rgba(0,0,0,.35);
+  backdrop-filter: blur(10px);
+  margin-top:16px;
+}
+
+.row{display:flex; gap:14px; align-items:center; justify-content:space-between; flex-wrap:wrap}
+.pill{
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.05);
+  padding:8px 12px;
+  border-radius:999px;
+  font-size:12px;
+  color:var(--muted);
+}
+.pill.live{border-color:rgba(75,227,162,.45); color:rgba(75,227,162,.95); box-shadow:0 0 24px rgba(75,227,162,.20)}
+.muted{color:var(--muted)}
+.tight{margin:10px 0 6px}
+.divider{height:1px; background:var(--line); margin:14px 0}
+.hidden{display:none}
+
+.gateLabel{
+  font-size:14px;
+  color:var(--muted);
+  margin-bottom:10px;
+  letter-spacing:.02em;
+}
+.gateRow{display:flex; gap:10px; align-items:center; flex-wrap:wrap}
+.pw{
+  flex:1;
+  min-width:240px;
+  padding:12px 12px;
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,.14);
+  background:rgba(0,0,0,.22);
+  color:var(--text);
+  font-size:14px;
+  outline:none;
+}
+.pw:focus{border-color:rgba(127,179,255,.55); box-shadow:0 0 22px rgba(127,179,255,.18)}
+
+.btn{
+  cursor:pointer;
+  border:1px solid rgba(127,179,255,.55);
+  background:linear-gradient(180deg, rgba(127,179,255,.22), rgba(127,179,255,.12));
+  color:var(--text);
+  padding:12px 14px;
+  border-radius:14px;
+  font-weight:750;
+  letter-spacing:.04em;
+}
+.btn:hover{transform:translateY(-1px)}
+.btn:active{transform:translateY(0px); opacity:.95}
+
+.btn.danger{
+  border-color:rgba(255,107,107,.75);
+  background:linear-gradient(180deg, rgba(255,107,107,.32), rgba(255,107,107,.14));
+  box-shadow:0 0 30px rgba(255,107,107,.16);
+}
+.note{
+  margin-top:12px;
+  border:1px dashed rgba(127,179,255,.35);
+  background:rgba(127,179,255,.07);
+  padding:12px;
+  border-radius:14px;
+  color:var(--muted);
+}
+.fine{margin-top:10px; font-size:12px; line-height:1.35}
+
+.broadcast{
+  margin-top:12px;
+  border:1px solid rgba(255,255,255,.10);
+  border-radius:16px;
+  background:rgba(0,0,0,.18);
+  padding:14px;
+  min-height:160px;
+}
+.line{
+  padding:10px 10px;
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.line:last-child{border-bottom:none}
+.line .who{font-weight:800}
+.line .tag{
+  display:inline-block;
+  font-size:11px;
+  padding:3px 8px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.12);
+  color:var(--muted);
+  margin-left:8px;
+}
+.big{
+  font-size:20px;
+  font-weight:900;
+  letter-spacing:.02em;
+}
+.good{color:rgba(75,227,162,.95)}
+.bad{color:rgba(255,107,107,.95)}
+
+.order{margin:8px 0 0; padding-left:22px}
+.order li{padding:8px 0; border-bottom:1px solid rgba(255,255,255,.07)}
+.order li:last-child{border-bottom:none}
+
+@media (max-width:680px){
+  h1{font-size:32px}
+}
