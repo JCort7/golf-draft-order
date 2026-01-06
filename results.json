@@ -1,1 +1,595 @@
-{}
+{
+  "mode": "OFFICIAL",
+  "generated_at": "2026-01-06T04:12:53.112Z",
+  "rounds": [
+    {
+      "round": 1,
+      "hole": {
+        "name": "Golden Bell (12)",
+        "course": "Augusta National",
+        "yards": 155
+      },
+      "teeOrder": [
+        "Hoosier Craig",
+        "Joe D",
+        "Brady Charmin",
+        "Dale",
+        "PCurrency",
+        "Jarred",
+        "AK",
+        "Swish",
+        "Kade",
+        "Nicky Tru",
+        "JCort",
+        "Max"
+      ],
+      "shots": [
+        {
+          "name": "Nicky Tru",
+          "dist": 20.6
+        },
+        {
+          "name": "PCurrency",
+          "dist": 29.8
+        },
+        {
+          "name": "JCort",
+          "dist": 30.7
+        },
+        {
+          "name": "Jarred",
+          "dist": 32.3
+        },
+        {
+          "name": "AK",
+          "dist": 32.6
+        },
+        {
+          "name": "Swish",
+          "dist": 36.2
+        },
+        {
+          "name": "Joe D",
+          "dist": 55.3
+        },
+        {
+          "name": "Dale",
+          "dist": 59.2
+        },
+        {
+          "name": "Kade",
+          "dist": 59.9
+        },
+        {
+          "name": "Max",
+          "dist": 61.1
+        },
+        {
+          "name": "Hoosier Craig",
+          "dist": 64.5
+        },
+        {
+          "name": "Brady Charmin",
+          "dist": 68.9
+        }
+      ],
+      "eliminated": "Brady Charmin",
+      "pickAwarded": 12
+    },
+    {
+      "round": 2,
+      "hole": {
+        "name": "The Cliffs (7)",
+        "course": "Pebble Beach",
+        "yards": 106
+      },
+      "teeOrder": [
+        "Hoosier Craig",
+        "Max",
+        "Kade",
+        "Dale",
+        "Joe D",
+        "Swish",
+        "AK",
+        "Jarred",
+        "JCort",
+        "PCurrency",
+        "Nicky Tru"
+      ],
+      "shots": [
+        {
+          "name": "Joe D",
+          "dist": 20.6
+        },
+        {
+          "name": "Kade",
+          "dist": 23.1
+        },
+        {
+          "name": "Swish",
+          "dist": 23.4
+        },
+        {
+          "name": "Dale",
+          "dist": 27.6
+        },
+        {
+          "name": "Max",
+          "dist": 28.7
+        },
+        {
+          "name": "PCurrency",
+          "dist": 29.3
+        },
+        {
+          "name": "Jarred",
+          "dist": 29.4
+        },
+        {
+          "name": "JCort",
+          "dist": 33.2
+        },
+        {
+          "name": "AK",
+          "dist": 46.6
+        },
+        {
+          "name": "Nicky Tru",
+          "dist": 53.6
+        },
+        {
+          "name": "Hoosier Craig",
+          "dist": 60
+        }
+      ],
+      "eliminated": "Hoosier Craig",
+      "pickAwarded": 11
+    },
+    {
+      "round": 3,
+      "hole": {
+        "name": "Island Green (17)",
+        "course": "TPC Sawgrass",
+        "yards": 137
+      },
+      "teeOrder": [
+        "Nicky Tru",
+        "AK",
+        "JCort",
+        "Jarred",
+        "PCurrency",
+        "Max",
+        "Dale",
+        "Swish",
+        "Kade",
+        "Joe D"
+      ],
+      "shots": [
+        {
+          "name": "AK",
+          "dist": 18.7
+        },
+        {
+          "name": "Joe D",
+          "dist": 22.4
+        },
+        {
+          "name": "Swish",
+          "dist": 23.1
+        },
+        {
+          "name": "JCort",
+          "dist": 25.2
+        },
+        {
+          "name": "Kade",
+          "dist": 25.5
+        },
+        {
+          "name": "PCurrency",
+          "dist": 26.7
+        },
+        {
+          "name": "Dale",
+          "dist": 27.3
+        },
+        {
+          "name": "Max",
+          "dist": 27.4
+        },
+        {
+          "name": "Jarred",
+          "dist": 28.3
+        },
+        {
+          "name": "Nicky Tru",
+          "dist": 34
+        }
+      ],
+      "eliminated": "Nicky Tru",
+      "pickAwarded": 10
+    },
+    {
+      "round": 4,
+      "hole": {
+        "name": "Stadium (16)",
+        "course": "TPC Scottsdale",
+        "yards": 163
+      },
+      "teeOrder": [
+        "Jarred",
+        "Max",
+        "Dale",
+        "PCurrency",
+        "Kade",
+        "JCort",
+        "Swish",
+        "Joe D",
+        "AK"
+      ],
+      "shots": [
+        {
+          "name": "JCort",
+          "dist": 24.1
+        },
+        {
+          "name": "Max",
+          "dist": 24.4
+        },
+        {
+          "name": "PCurrency",
+          "dist": 25.7
+        },
+        {
+          "name": "Joe D",
+          "dist": 26.7
+        },
+        {
+          "name": "Jarred",
+          "dist": 27.6
+        },
+        {
+          "name": "AK",
+          "dist": 28.5
+        },
+        {
+          "name": "Swish",
+          "dist": 32.3
+        },
+        {
+          "name": "Dale",
+          "dist": 51.5
+        },
+        {
+          "name": "Kade",
+          "dist": 63.7
+        }
+      ],
+      "eliminated": "Kade",
+      "pickAwarded": 9
+    },
+    {
+      "round": 5,
+      "hole": {
+        "name": "Postage Stamp (8)",
+        "course": "Royal Troon",
+        "yards": 123
+      },
+      "teeOrder": [
+        "Dale",
+        "Swish",
+        "AK",
+        "Jarred",
+        "Joe D",
+        "PCurrency",
+        "Max",
+        "JCort"
+      ],
+      "shots": [
+        {
+          "name": "Dale",
+          "dist": 18.4
+        },
+        {
+          "name": "PCurrency",
+          "dist": 20.2
+        },
+        {
+          "name": "Max",
+          "dist": 20.4
+        },
+        {
+          "name": "AK",
+          "dist": 21.2
+        },
+        {
+          "name": "Jarred",
+          "dist": 23.4
+        },
+        {
+          "name": "JCort",
+          "dist": 24.5
+        },
+        {
+          "name": "Joe D",
+          "dist": 24.9
+        },
+        {
+          "name": "Swish",
+          "dist": 28.9
+        }
+      ],
+      "eliminated": "Swish",
+      "pickAwarded": 8
+    },
+    {
+      "round": 6,
+      "hole": {
+        "name": "Redan (15)",
+        "course": "North Berwick",
+        "yards": 192
+      },
+      "teeOrder": [
+        "Joe D",
+        "JCort",
+        "Jarred",
+        "AK",
+        "Max",
+        "PCurrency",
+        "Dale"
+      ],
+      "shots": [
+        {
+          "name": "Joe D",
+          "dist": 19.3
+        },
+        {
+          "name": "PCurrency",
+          "dist": 19.8
+        },
+        {
+          "name": "Jarred",
+          "dist": 20
+        },
+        {
+          "name": "Dale",
+          "dist": 21.4
+        },
+        {
+          "name": "AK",
+          "dist": 22
+        },
+        {
+          "name": "Max",
+          "dist": 22.6
+        },
+        {
+          "name": "JCort",
+          "dist": 24.9
+        }
+      ],
+      "eliminated": "JCort",
+      "pickAwarded": 7
+    },
+    {
+      "round": 7,
+      "hole": {
+        "name": "Devil’s Cauldron (16)",
+        "course": "Cypress Point",
+        "yards": 231
+      },
+      "teeOrder": [
+        "Max",
+        "AK",
+        "Dale",
+        "Jarred",
+        "PCurrency",
+        "Joe D"
+      ],
+      "shots": [
+        {
+          "name": "AK",
+          "dist": 18.6
+        },
+        {
+          "name": "Dale",
+          "dist": 20.8
+        },
+        {
+          "name": "PCurrency",
+          "dist": 21.5
+        },
+        {
+          "name": "Joe D",
+          "dist": 23.2
+        },
+        {
+          "name": "Max",
+          "dist": 23.8
+        },
+        {
+          "name": "Jarred",
+          "dist": 50.1
+        }
+      ],
+      "eliminated": "Jarred",
+      "pickAwarded": 6
+    },
+    {
+      "round": 8,
+      "hole": {
+        "name": "Short (6)",
+        "course": "Pine Valley",
+        "yards": 160
+      },
+      "teeOrder": [
+        "Max",
+        "Joe D",
+        "PCurrency",
+        "Dale",
+        "AK"
+      ],
+      "shots": [
+        {
+          "name": "PCurrency",
+          "dist": 14.7
+        },
+        {
+          "name": "Dale",
+          "dist": 16.2
+        },
+        {
+          "name": "AK",
+          "dist": 19.4
+        },
+        {
+          "name": "Max",
+          "dist": 21.2
+        },
+        {
+          "name": "Joe D",
+          "dist": 21.9
+        }
+      ],
+      "eliminated": "Joe D",
+      "pickAwarded": 5
+    },
+    {
+      "round": 9,
+      "hole": {
+        "name": "Corner (13)",
+        "course": "Merion East",
+        "yards": 115
+      },
+      "teeOrder": [
+        "Max",
+        "AK",
+        "Dale",
+        "PCurrency"
+      ],
+      "shots": [
+        {
+          "name": "PCurrency",
+          "dist": 16.6
+        },
+        {
+          "name": "Dale",
+          "dist": 19.1
+        },
+        {
+          "name": "AK",
+          "dist": 20
+        },
+        {
+          "name": "Max",
+          "dist": 47.9
+        }
+      ],
+      "eliminated": "Max",
+      "pickAwarded": 4
+    },
+    {
+      "round": 10,
+      "hole": {
+        "name": "Short (17)",
+        "course": "St Andrews (Old Course)",
+        "yards": 115
+      },
+      "teeOrder": [
+        "AK",
+        "Dale",
+        "PCurrency"
+      ],
+      "shots": [
+        {
+          "name": "AK",
+          "dist": 10.5
+        },
+        {
+          "name": "Dale",
+          "dist": 14.7
+        },
+        {
+          "name": "PCurrency",
+          "dist": 17.3
+        }
+      ],
+      "eliminated": "PCurrency",
+      "pickAwarded": 3
+    },
+    {
+      "round": 11,
+      "hole": {
+        "name": "FINAL HOLE",
+        "course": "The Scottie Bowl",
+        "yards": 155
+      },
+      "teeOrder": [
+        "Dale",
+        "AK"
+      ],
+      "shots": [
+        {
+          "name": "AK",
+          "dist": 13.6
+        },
+        {
+          "name": "Dale",
+          "dist": 15.3
+        }
+      ],
+      "eliminated": "Dale",
+      "pickAwarded": 2
+    }
+  ],
+  "finalOrder": [
+    {
+      "name": "AK",
+      "pick": 1
+    },
+    {
+      "name": "Dale",
+      "pick": 2
+    },
+    {
+      "name": "PCurrency",
+      "pick": 3
+    },
+    {
+      "name": "Max",
+      "pick": 4
+    },
+    {
+      "name": "Joe D",
+      "pick": 5
+    },
+    {
+      "name": "Jarred",
+      "pick": 6
+    },
+    {
+      "name": "JCort",
+      "pick": 7
+    },
+    {
+      "name": "Swish",
+      "pick": 8
+    },
+    {
+      "name": "Kade",
+      "pick": 9
+    },
+    {
+      "name": "Nicky Tru",
+      "pick": 10
+    },
+    {
+      "name": "Hoosier Craig",
+      "pick": 11
+    },
+    {
+      "name": "Brady Charmin",
+      "pick": 12
+    }
+  ]
+}
